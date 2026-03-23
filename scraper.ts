@@ -1,5 +1,5 @@
 import { chromium } from "playwright";
-import { addJobToNotion } from "./notion";
+import { addJobToNotion, checkIfJobExists } from "./notion";
 
 export interface Job {
   title: string;
@@ -8,6 +8,7 @@ export interface Job {
   link: string;
   salary: string;
   jobType: string;
+  description?: string;
 }
 
 (async () => {
@@ -59,7 +60,14 @@ export interface Job {
   for (let i = 0; i < Math.min(jobCards.length, 5); i++) {
     const job = uniqueJobs[i];
 
-    console.log(`➡️ Clicking: ${job.title}`);
+    console.log(`➡️ Checking if already exists: ${job.title}`);
+    const exists = await checkIfJobExists(job.link);
+    if (exists) {
+      console.log(`⏩ Skipping (Already in Notion): ${job.title}`);
+      continue;
+    }
+
+    console.log(`➡️ Clicking & Scraping: ${job.title}`);
 
     try {
       // Click the card to load the right panel
@@ -79,7 +87,7 @@ export interface Job {
         description: description.trim(),
       };
 
-      await addJobToNotion(results[0]);
+      await addJobToNotion(fullJob);
       await new Promise((r) => setTimeout(r, 300));
 
       results.push(fullJob);
