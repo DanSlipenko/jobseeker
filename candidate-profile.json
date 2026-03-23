@@ -1,0 +1,100 @@
+{
+  "personal_info": {
+    "first_name": "Danyill",
+    "last_name": "Slipenko",
+    "email": "daniel.slipenko@gmail.com",
+    "phone": "7737665169",
+    "linkedin": "https://www.linkedin.com/in/dslipenko/",
+    "github": "https://github.com/DanSlipenko",
+    "portfolio": "https://www.artsem.ai/",
+    "resume_full_path": "/Users/danielslipenko/Documents/AI-folder/Resume.pdf",
+    "cover_letter_full_path": "/Users/danielslipenko/Documents/AI-folder/CoverLetter.pdf",
+    "photo_full_path": "/Users/danielslipenko/Documents/AI-folder/Photo.jpg"
+  },
+  "work_experience": [
+    {
+      "company": "Artsem.ai",
+      "title": "Founder / Software Engineering Lead",
+      "start_date": "2024",
+      "end_date": "Present",
+      "description": "Founded and led Artsem.ai, directing a cross-functional engineering team to build an AI-powered apparel marketplace integrated with Shopify APIs. Developed merchant onboarding infrastructure with real-time messaging (Firebase) and built a React-based Merchant Dashboard. Engineered a scalable Product Sync engine in Node.js and TypeScript with a SQL database. Implemented DevOps practices by deploying services on Google Cloud Run and Azure with CI/CD pipelines."
+    },
+    {
+      "company": "MBI",
+      "title": "Software Engineer",
+      "start_date": "Sept 2024",
+      "end_date": "Present",
+      "description": "Designed and deployed a Robotic Process Automation and DevOps testing framework using JavaScript, Node.js, and Cypress, automating regression testing across environments. Developed a Node.js data pipeline and internal testing platform backed by a NoSQL database to process and visualize 10,000+ automated test executions. Integrated automated testing into CI/CD pipelines to accelerate deployment cycles."
+    },
+    {
+      "company": "Pebble Spaces",
+      "title": "Founding Lead Software Engineer",
+      "start_date": "Aug 2024",
+      "end_date": "Jun 2026",
+      "description": "Designed the website and user interface in Figma and developed a full-stack reservation platform with online payments and real-time availability tracking. Engineered a secure booking workflow for future reservations and smart lock access. Created staff workflow tools that improved resource allocation and operational efficiency."
+    },
+    {
+      "company": "MBI",
+      "title": "Software Engineer / Technical Analyst",
+      "start_date": "Aug 2021",
+      "end_date": "Sept 2024",
+      "description": "Developed and scaled a backend automation server for regression testing, increasing daily testing capacity by 50%. Enhanced web platform monitoring to reduce manual testing checks. Administered and optimized CMS platforms. Managed Jira and Airtable workflows to streamline issue tracking, project coordination, and development processes."
+    }
+  ],
+  "education": [
+    {
+      "school": "Moody Bible Institute",
+      "degree": "Bachelor of Arts in Intercultural Studies",
+      "graduation_year": "2024"
+    }
+  ],
+  "skills": [
+    "Node.js",
+    "React",
+    "Angular",
+    "Vue.js",
+    "Express.js",
+    "TypeScript",
+    "Cypress",
+    "AI Integration",
+    "Cloud Computing",
+    "SQL",
+    "NoSQL",
+    "MongoDB",
+    "PostgreSQL",
+    "REST APIs",
+    "Automated testing",
+    "Regression testing",
+    "Unit testing",
+    "Integration testing",
+    "User Interface Design",
+    "DevOps",
+    "Docker",
+    "Kubernetes",
+    "Git",
+    "GitHub",
+    "GitLab",
+    "AWS",
+    "Azure",
+    "Google Cloud",
+    "Cloud Run",
+    "Data pipelines",
+    "Data visualization",
+    "ETL",
+    "API integration",
+    "Agile",
+    "Scrum",
+    "Kanban",
+    "Jira",
+    "Trello",
+    "Confluence",
+    "Authentication",
+    "Authorization"
+  ],
+  "questions": {
+    "sponsorship": "No, I do not require sponsorship.",
+    "clearance": "No active security clearance.",
+    "willing_to_relocate": "Yes",
+    "salary_expectations": "$90,000"
+  }
+}

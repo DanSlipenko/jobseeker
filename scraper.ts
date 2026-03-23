@@ -1,5 +1,5 @@
 import { chromium } from "playwright";
-import { addJobToNotion, checkIfJobExists } from "./notion";
+import { addJobToNotion, checkIfJobExists, getFilteredJobs } from "./notion";
 
 export interface Job {
   title: string;
